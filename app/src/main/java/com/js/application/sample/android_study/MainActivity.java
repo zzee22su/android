@@ -1,4 +1,4 @@
-package com.js.application.sample.studyandroid;
+package com.js.application.sample.android_study;
 
 import androidx.appcompat.app.AppCompatActivity;
 
