@@ -9,7 +9,8 @@
     <SeekBar
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:ignore="MissingConstraints">
-
+        tools:ignore="MissingConstraints"
+        android:thumb="@drawable/thumb"
+        android:progressDrawable="@drawable/line">
     </SeekBar>
 </androidx.constraintlayout.widget.ConstraintLayout>
