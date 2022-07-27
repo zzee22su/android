@@ -7,10 +7,19 @@
     tools:context=".MainActivity">
 
     <SeekBar
+        android:id="@+id/seekBar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:ignore="MissingConstraints"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/line"
         android:thumb="@drawable/thumb"
-        android:progressDrawable="@drawable/line">
-    </SeekBar>
+        tools:ignore="MissingConstraints"></SeekBar>
+
+    <Button
+        android:id="@+id/btnOnOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
